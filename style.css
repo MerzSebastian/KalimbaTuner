@@ -250,6 +250,66 @@ header h1 {
   color: var(--text);
 }
 
+/* ── Reference table ── */
+#ref-section {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+#ref-section h2 {
+  font-size: 1rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.ref-hint {
+  font-size: .78rem;
+  color: var(--muted);
+  padding: 0 .25rem;
+}
+
+#ref-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .82rem;
+}
+#ref-table th {
+  text-align: left;
+  color: var(--muted);
+  font-weight: 600;
+  padding: .4rem .6rem;
+  border-bottom: 1px solid #2a2a3e;
+  letter-spacing: .06em;
+  font-size: .72rem;
+  text-transform: uppercase;
+}
+#ref-table td {
+  padding: .35rem .6rem;
+  border-bottom: 1px solid #1e1e30;
+}
+#ref-table td:first-child {
+  font-family: monospace;
+  font-size: .9rem;
+  color: var(--gold);
+  letter-spacing: .05em;
+}
+#ref-table tr.center-row td {
+  color: var(--gold);
+  font-weight: 700;
+}
+#ref-table tr:hover td { background: rgba(255,255,255,.03); }
+
+#ref-table-wrap {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: .75rem .5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  box-shadow: 0 4px 32px rgba(0,0,0,.4);
+}
+
 /* ── Install banner ── */
 #install-banner {
   position: fixed;

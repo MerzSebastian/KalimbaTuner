@@ -106,27 +106,27 @@
 //  E''3  = E, dot-dot BEFORE  = E oct6  = 1318.51 Hz
 
 const DISPLAY_ORDER = [
-  { note: 'D', octave: 6, freq: 1174.66, tineLabel: "D''2"  },  //  1 far left
-  { note: 'B', octave: 5, freq:  987.77, tineLabel: "B'7"   },  //  2
-  { note: 'G', octave: 5, freq:  783.99, tineLabel: "G'5"   },  //  3
-  { note: 'E', octave: 5, freq:  659.25, tineLabel: "E'3"   },  //  4
-  { note: 'C', octave: 5, freq:  523.25, tineLabel: "C'1"   },  //  5
+  { note: 'D', octave: 6, freq: 1175.00, tineLabel: "D''2"  },  //  1 far left
+  { note: 'B', octave: 6, freq:  998.00, tineLabel: "B'7"   },  //  2
+  { note: 'G', octave: 5, freq:  784.00, tineLabel: "G'5"   },  //  3
+  { note: 'E', octave: 5, freq:  660.00, tineLabel: "E'3"   },  //  4
+  { note: 'C', octave: 5, freq:  524.00, tineLabel: "C'1"   },  //  5
   { note: 'A', octave: 4, freq:  440.00, tineLabel: "A6"    },  //  6
-  { note: 'F', octave: 4, freq:  349.23, tineLabel: "F4"    },  //  7
-  { note: 'D', octave: 4, freq:  293.66, tineLabel: "D2"    },  //  8
-  { note: 'B', octave: 3, freq:  246.94, tineLabel: "B7'"   },  //  9
+  { note: 'F', octave: 4, freq:  350.00, tineLabel: "F4"    },  //  7
+  { note: 'D', octave: 4, freq:  294.00, tineLabel: "D2"    },  //  8
+  { note: 'B', octave: 3, freq:  247.00, tineLabel: "B7'"   },  //  9
   { note: 'G', octave: 3, freq:  196.00, tineLabel: "G5'"   },  // 10
-  { note: 'F', octave: 3, freq:  174.61, tineLabel: "F4'",  center: true }, // 11 CENTER
+  { note: 'F', octave: 3, freq:  175.00, tineLabel: "F4'",  center: true }, // 11 CENTER
   { note: 'A', octave: 3, freq:  220.00, tineLabel: "A6'"   },  // 12
-  { note: 'C', octave: 4, freq:  261.63, tineLabel: "C1"    },  // 13
-  { note: 'E', octave: 4, freq:  329.63, tineLabel: "E3"    },  // 14
-  { note: 'G', octave: 4, freq:  392.00, tineLabel: "G5"    },  // 15
-  { note: 'B', octave: 4, freq:  493.88, tineLabel: "B7"    },  // 16
-  { note: 'D', octave: 5, freq:  587.33, tineLabel: "D'2"   },  // 17
-  { note: 'F', octave: 5, freq:  698.46, tineLabel: "F'4"   },  // 18
+  { note: 'C', octave: 4, freq:  262.00, tineLabel: "C1"    },  // 13
+  { note: 'E', octave: 4, freq:  330.00, tineLabel: "E3"    },  // 14
+  { note: 'G', octave: 4, freq:  393.00, tineLabel: "G5"    },  // 15
+  { note: 'B', octave: 4, freq:  494.00, tineLabel: "B7"    },  // 16
+  { note: 'D', octave: 5, freq:  588.00, tineLabel: "D'2"   },  // 17
+  { note: 'F', octave: 5, freq:  699.00, tineLabel: "F'4"   },  // 18
   { note: 'A', octave: 5, freq:  880.00, tineLabel: "A'6"   },  // 19
-  { note: 'C', octave: 6, freq: 1046.50, tineLabel: "C''1"  },  // 20
-  { note: 'E', octave: 6, freq: 1318.51, tineLabel: "E''3"  },  // 21 far right
+  { note: 'C', octave: 6, freq: 1046.00, tineLabel: "C''1"  },  // 20
+  { note: 'E', octave: 6, freq: 1319.00, tineLabel: "E''3"  },  // 21 far right
 ];
 
 // Flat list of unique notes for pitch-snap (deduped by freq)
@@ -431,5 +431,5 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-// ── Init ──────────────────────────────────────────────────────
+// ── Init ────────────────────────────────────────────────
 buildTines();
