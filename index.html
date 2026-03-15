@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1a1a2e" />
+  <meta name="description" content="Kalimba Tuner – tune your 21-key kalimba with your microphone" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icons/icon-192.svg" />
+  <title>Kalimba Tuner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+
+    <!-- Header -->
+    <header>
+      <h1>🎵 Kalimba Tuner</h1>
+      <p class="subtitle">21-Key · F4' Center · F3–E6</p>
+    </header>
+
+    <!-- Main tuner display -->
+    <section id="tuner">
+      <div id="note-display">
+        <div id="detected-note">–</div>
+        <div id="detected-octave"></div>
+      </div>
+
+      <div id="cents-wrapper">
+        <div id="cents-bar">
+          <div id="cents-fill"></div>
+          <div id="cents-center"></div>
+        </div>
+        <div class="cents-labels">
+          <span>−50</span>
+          <span>0</span>
+          <span>+50</span>
+        </div>
+      </div>
+
+      <div id="tuning-status">–</div>
+
+      <div id="frequency-display">
+        <span id="freq-value">– Hz</span>
+      </div>
+
+      <button id="start-btn">🎤 Start Tuning</button>
+    </section>
+
+    <!-- 21-key tine layout -->
+    <section id="keys-section">
+      <h2>21-Key Layout</h2>
+      <p class="keys-hint">Tap a key to lock onto that note</p>
+      <div id="tine-container">
+        <!-- tines rendered by JS -->
+      </div>
+    </section>
+
+    <!-- Install PWA banner -->
+    <div id="install-banner" hidden>
+      <span>Add to Home Screen for offline use</span>
+      <button id="install-btn">Install</button>
+      <button id="dismiss-btn">✕</button>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

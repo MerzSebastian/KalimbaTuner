@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="100" fill="#1a1a2e"/>
+  <!-- Kalimba tines fan -->
+  <rect x="232" y="70"  width="48"  height="280" rx="16" fill="#c8c8c8"/>
+  <rect x="178" y="110" width="42"  height="240" rx="14" fill="#b0b0b0"/>
+  <rect x="292" y="110" width="42"  height="240" rx="14" fill="#b0b0b0"/>
+  <rect x="128" y="148" width="38"  height="202" rx="12" fill="#999"/>
+  <rect x="346" y="148" width="38"  height="202" rx="12" fill="#999"/>
+  <rect x="82"  y="182" width="34"  height="168" rx="10" fill="#888"/>
+  <rect x="396" y="182" width="34"  height="168" rx="10" fill="#888"/>
+  <rect x="40"  y="210" width="30"  height="140" rx="9"  fill="#777"/>
+  <rect x="442" y="210" width="30"  height="140" rx="9"  fill="#777"/>
+  <!-- Bridge bar -->
+  <rect x="30"  y="352" width="452" height="28"  rx="14" fill="#f5a623"/>
+  <!-- Musical note -->
+  <circle cx="256" cy="446" r="28" fill="#e94560"/>
+  <rect x="278" y="392" width="12" height="60"   rx="6"  fill="#e94560"/>
+</svg>
